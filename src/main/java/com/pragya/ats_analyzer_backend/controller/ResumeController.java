@@ -10,7 +10,6 @@ import com.pragya.ats_analyzer_backend.service.ResumeService;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "http://localhost:5173")
 public class ResumeController {
 
     @Autowired
@@ -21,15 +20,10 @@ public class ResumeController {
             consumes = MediaType.MULTIPART_FORM_DATA_VALUE
     )
     public AnalyzeResponse analyzeResume(
-
             @RequestParam("resume") MultipartFile resume,
-
             @RequestParam("jobDescription") String jobDescription
-
     ) throws Exception {
 
         return resumeService.analyzeResume(resume, jobDescription);
-
     }
-
 }

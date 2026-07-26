@@ -28,17 +28,7 @@ https://ats-resume-analyzer-backend-production.up.railway.app
 
 ---
 
-# 🛠 Tech Stack
 
-- Java 21
-- Spring Boot 3
-- Maven
-- Apache PDFBox
-- Gson
-- REST API
-- Groq AI API
-- Railway
-- Git & GitHub
 
 ---
 
